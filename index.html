@@ -39,6 +39,26 @@
             color: #007bff;
             padding-left: 10px;
         }
+
+        nav li span{
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .sub-menu{
+            margin-left: 20px;
+            border-left: 2px;
+            border-style: solid;
+            border-color: #ddd;
+            padding-left: 10px;
+        }
+
+        .sub-menu li{
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+        }
     </style>
     
 </head>
@@ -51,8 +71,16 @@
         <h2>目次</h2>
         <ul>
             <li><a href="profile.html">自己紹介</a></li>
-            <li><a href="programming.html">プログラミング記録</a></li>
-            <li><a href="book_reviews.html">書評</a></li>
+            <li>
+                <span>プログラミング記録</span>
+            <ul class="sub-menu">
+                <li><a href="2605 programming.html">2026年5月</a></li>
+            </ul>
+            <li>
+                <span>書評</span>
+            <ul class="sub-menu">
+                <li><a href="2605 book.html">2026年5月</a></li>
+            </ul>
         </ul>
     </nav>  
 
